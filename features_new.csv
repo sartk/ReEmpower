@@ -1,0 +1,241 @@
+﻿status,_browse_notes_file,_description
+
+2,accept_d,_the date which the borrower accepted  the offer
+
+2,acc_now_delinq,_the number of accounts on which the borrower is now delinquent.
+
+2,acc_open_past24_mths,_number of trades opened in past 24 months.
+
+0,addr_state,_the state provided by the borrower in the loan application
+
+2,all_util,_balance to credit limit on all trades
+
+0,annual_inc_joint,_the combined self-reported annual income provided by the co-borrowers during registration
+
+2,annual_inc,_the self-reported annual income provided by the borrower during registration.
+
+0,application_type,_indicates whether the loan is an individual application or a joint application with two co-borrowers
+
+2,avg_cur_bal,_average current balance of all accounts
+
+2,bc_open_to_buy,_total open to buy on revolving bankcards.
+
+2,bc_util,_ratio of total current balance to high credit/credit limit for all bankcard accounts.
+
+2,chargeoff_within_12_mths,_number of charge-offs within 12 months
+
+2,collections_12_mths_ex_med,_number of collections in 12 months excluding medical collections
+
+2,credit_pull_d,_the date _lC pulled credit for this loan
+
+2,delinq2_yrs,_the number of 30+ days past-due incidences of delinquency in the borrower's credit file for the past 2 years
+
+2,delinq_amnt,_the past-due amount owed for the accounts on which the borrower is now delinquent.
+
+3,desc,_loan description provided by the borrower
+
+2,dti,"_a ratio calculated using the borrower’s total monthly debt payments on the total debt obligations, excluding mortgage and the requested _lC loan, divided by the borrower’s self-reported monthly income."
+
+0,dti_joint,"_a ratio calculated using the co-borrowers' total monthly payments on the total debt obligations, excluding mortgages and the requested _lC loan, divided by the co-borrowers' combined self-reported monthly income"
+
+2,earliest_cr_line,_the date the borrower's earliest reported credit line was opened
+
+2,effective_int_rate,_the effective interest rate is equal to the interest rate on a _note reduced by _lending _club's estimate of the impact of uncollected interest prior to charge off. 
+
+3,emp_title,_the job title supplied by the _borrower when applying for the loan.*
+
+2,emp_length,_employment length in years. _possible values are between 0 and 10 where 0 means less than one year and 10 means ten or more years.
+
+2,exp_d,_the date the listing will expire
+
+2,exp_default_rate,_the expected default rate of the loan.
+
+2,fico_range_high,_the upper boundary range the borrower’s _fi_cO at loan origination belongs to.
+
+2,fico_range_low,_the lower boundary range the borrower’s _fi_cO at loan origination belongs to.
+
+2,funded_amnt,_the total amount committed to that loan at that point in time.
+
+1,grade,_lC assigned loan grade
+
+2,home_ownership,"_the home ownership status provided by the borrower during registration. _our values are: _re_nt, _ow_n, _mo_rt_ga_ge, _ot_he_r."
+
+0,id,_a unique _lc assigned _iD for the loan listing.
+
+2,il_util,_ratio of total current balance to high credit/credit limit on all install acct
+
+2,ils_exp_d,wholeloan platform expiration date
+
+0,initial_list_status,"_the initial listing status of the loan. _possible values are – _w, _f"
+
+2,inq_fi,_number of personal finance inquiries
+
+2,inq_last_12m,_number of credit inquiries in past 12 months
+
+2,inq_last6_mths,_the number of inquiries in past 6 months (excluding auto and mortgage inquiries)
+
+2,installment,_the monthly payment owed by the borrower if the loan originates.
+
+2,int_rate,_interest _rate on the loan
+
+2,is_inc_v,"_indicates if income was verified by _lC, not verified, or if the income source was verified"
+
+2,list_d,_the date which the borrower's application was listed on the platform.
+
+2,loan_amnt,"_the listed amount of the loan applied for by the borrower. _if at some point in time, the credit department reduces the loan amount, then it will be reflected in this value."
+
+2,max_bal_bc,_maximum current balance owed on all revolving accounts
+
+0,member_id,_a unique _lc assigned _id for the borrower member.
+
+0,mo_sin_old_rev_tl_op,_months since oldest revolving account opened
+
+0,mo_sin_rcnt_rev_tl_op,_months since most recent revolving account opened
+
+0,mo_sin_rcnt_tl,_months since most recent account opened
+
+2,mort_acc,_number of mortgage accounts.
+
+0,msa,_metropolitan _statistical _area of the borrower.
+
+2,mths_since_last_major_derog,_months since most recent 90-day or worse rating
+
+2,mths_since_oldest_il_open,_months since oldest bank installment account opened
+
+2,mths_since_rcnt_il,_months since most recent installment accounts opened
+
+2,mths_since_last_delinq,_the number of months since the borrower's last delinquency.
+
+2,mths_since_last_record,_the number of months since the last public record.
+
+0,mths_since_most_recent_inq,_months since most recent inquiry.
+
+2,mths_since_recent_bc,_months since most recent bankcard account opened.
+
+2,mths_since_recent_loan_delinq,_months since most recent personal finance delinquency.
+
+2,mths_since_recent_revol_delinq,_months since most recent revolving delinquency.
+
+0,num_accts_ever_120_pd,_number of accounts ever 120 or more days past due
+
+2,num_actv_bc_tl,_number of currently active bankcard accounts
+
+2,num_actv_rev_tl,_number of currently active revolving trades
+
+2,num_bc_sats,_number of satisfactory bankcard accounts
+
+2,num_bc_tl,_number of bankcard accounts
+
+2,num_il_tl,_number of installment accounts
+
+2,num_op_rev_tl,_number of open revolving accounts
+
+2,num_rev_accts,_number of revolving accounts
+
+2,num_rev_tl_bal_gt_0,_number of revolving trades with balance >0
+
+2,num_sats,_number of satisfactory accounts
+
+2,num_tl_120dpd_2m,_number of accounts currently 120 days past due (updated in past 2 months)
+
+2,num_tl_30dpd,_number of accounts currently 30 days past due (updated in past 2 months)
+
+2,num_tl_90g_dpd_24m,_number of accounts 90 or more days past due in last 24 months
+
+2,num_tl_op_past_12m,_number of accounts opened in past 12 months
+
+2,open_acc_6m,_number of open trades in last 6 months
+
+2,open_il_12m,_number of installment accounts opened in past 12 months
+
+2,open_il_24m,_number of installment accounts opened in past 24 months
+
+2,open_act_il,_number of currently active installment trades
+
+2,open_rv_12m,_number of revolving trades opened in past 12 months
+
+2,open_rv_24m,_number of revolving trades opened in past 24 months
+
+2,open_acc,_the number of open credit lines in the borrower's credit file.
+
+2,pct_tl_nvr_dlq,_percent of trades never delinquent
+
+2,percent_bc_gt75,_percentage of all bankcard accounts > 75% of limit.
+
+2,pub_rec_bankruptcies,_number of public record bankruptcies
+
+2,pub_rec,_number of derogatory public records
+
+1,purpose,_a category provided by the borrower for the loan request. 
+
+1,review_status,"_the status of the loan during the listing period. _values: _ap_pr_ov_ed, _no_t__ap_pr_ov_eD."
+
+2,review_status_d,_the date the loan application was reviewed by _lC
+
+2,revol_bal,_total credit revolving balance
+
+2,revol_util,"_revolving line utilization rate, or the amount of credit the borrower is using relative to all available revolving credit."
+
+2,service_fee_rate,_service fee rate paid by the investor for this loan.
+
+1,sub_grade,_lC assigned loan subgrade
+
+2,tax_liens,_number of tax liens
+
+2,term,_the number of payments on the loan. _values are in months and can be either 36 or 60.
+
+0,title,_the loan title provided by the borrower
+
+2,tot_coll_amt,_total collection amounts ever owed
+
+2,tot_cur_bal,_total current balance of all accounts
+
+2,tot_hi_cred_lim,_total high credit/credit limit
+
+2,total_bal_il,_total current balance of all installment accounts
+
+2,total_cu_tl,_number of finance trades
+
+2,total_il_high_credit_limit,_total installment high credit/credit limit
+
+2,total_rev_hi_lim  ,_total revolving high credit/credit limit
+
+2,total_acc,_the total number of credit lines currently in the borrower's credit file
+
+2,total_bal_ex_mort,_total credit balance excluding mortgage
+
+2,total_bc_limit,_total bankcard high credit/credit limit
+
+0,url,_ur_l for the _lC page with listing data.
+
+0,verified_status_joint,"_indicates if the co-borrowers' joint income was verified by _lC, not verified, or if the income source was verified"
+
+0,zip_code,_the first 3 numbers of the zip code provided by the borrower in the loan application.
+
+0,revol_bal_joint ," _sum of revolving credit balance of the co-borrowers, net of duplicate balances"
+
+0,sec_app_fico_range_low , _fi_cO range (high) for the secondary applicant
+
+0,sec_app_fico_range_high , _fi_cO range (low) for the secondary applicant
+
+0,sec_app_earliest_cr_line , _earliest credit line at time of application for the secondary applicant
+
+0,sec_app_inq_last_6mths , _credit inquiries in the last 6 months at time of application for the secondary applicant
+
+0,sec_app_mort_acc , _number of mortgage accounts at time of application for the secondary applicant
+
+0,sec_app_open_acc , _number of open trades at time of application for the secondary applicant
+
+0,sec_app_revol_util , _ratio of total current balance to high credit/credit limit for all revolving accounts
+
+0,sec_app_open_act_il, _number of currently active installment trades at time of application for the secondary applicant
+
+0,sec_app_num_rev_accts , _number of revolving accounts at time of application for the secondary applicant
+
+0,sec_app_chargeoff_within_12_mths , _number of charge-offs within last 12 months at time of application for the secondary applicant
+
+0,sec_app_collections_12_mths_ex_med , _number of collections within last 12 months excluding medical collections at time of application for the secondary applicant
+
+0,sec_app_mths_since_last_major_derog , _months since most recent 90-day or worse rating at time of application for the secondary applicant
+
+1,disbursement_method,"_the method by which the borrower receives their loan. _possible values are: _ca_sh, _di_re_ct__pa_y"
